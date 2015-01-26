@@ -1,0 +1,147 @@
+body {
+	font-family: 'Quicksand', arial, sans-serif;
+	background-color: #ededed;
+}
+a {
+	text-decoration: none;
+	font-weight: 700;
+}
+a:link {
+	color: #fff;
+}
+a:visited{
+	color: #fff;
+}
+a:hover{
+	color: #fff;
+}
+a:active{
+	color: #fff;
+}
+h1, h2, h3, h4, h5, h6,  {
+	font-family: 'Quicksand', arial, sans-serif;
+	font-weight: 700;
+	margin-bottom: .5%;
+}
+p {
+	font-family: 'Quicksand', arial, sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.6em;
+}
+#header h2 {
+	font-weight: normal
+}
+nav ul li {
+	display: inline-block;
+	margin: 0 2%;
+}
+nav {
+	margin: 0 auto;
+	font-size: 24px;
+	overflow: hidden;
+	text-align: center;
+}
+a.active {
+	color: #f8931e;
+}
+header #header {
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 1%;
+}
+header #logo {
+	width: 300px;
+	margin: 0 auto 1%;
+}
+#main {
+	margin: 1% 0 2.5%;
+}
+article #image-slider {
+	overflow: hidden;
+}
+footer {
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+}
+footer a {
+	color:  #fff;
+}
+footer #nav-bar {
+	background-color: #000;
+	overflow: hidden; padding: 0.5% 0;
+}
+.frame-descript {
+	height: auto;
+	-webkit-border-radius:
+	10px; padding: 5px;
+	margin: 0 0 6%;
+	border: 5px solid #000;
+}
+.frame-row {
+	margin: 0 auto;
+	overflow: hidden;
+}
+.frame-content {
+	display: none;
+	//clear: left;
+	background-color: orange;
+	padding: 1% 1%;
+	margin: 0 auto;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	float: left;
+}
+
+#main .frame-row .col {
+	padding: 0 !important;
+	margin: 2% 0 0.5% 1.6%;
+}
+#main .frame-row .frame-container:first-child .col {
+	margin: 2% 0 0.5% 0;
+}
+ul#slider {
+	width: 800px;
+	height: 410px;
+	margin: 0 auto;
+	text-align: center;
+}
+.remove {
+	margin-left: 0 !important;
+}
+.color {
+	color: # d90b0b;
+}
+
+/*HOME PAGE*/
+.home #header {
+  position: relative;
+  z-index: 2;
+  margin: 0 auto;
+  padding: 5% 0;
+margin-top: 3%;
+}
+.home .splash-bckgrd #header h1 {
+	font-size: 55px;
+	letter-spacing: 4px;
+}
+.home #header a {
+	color: #f8931e;
+}
+.home #main {
+	text-align: center;
+}
+.home .bckgrd-img {
+	background-image: url(http://media-cache-ak0.pinimg.com/736x/65/f8/15/65f815cea692adecca257208e84f20d4.jpg);
+	background-size: cover;
+  display: block;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  height: 800px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: 1;
+
+}

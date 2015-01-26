@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta>
+	<title>Better Mouse Trap</title>
+	<link rel="stylesheet" type="text/css" href="css/html5reset.css">
+	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
+	<link rel="stylesheet" type="text/css" href="css/mouse-style.css">
+	<link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/.css">
+</head>
+
+<body>
+	<header class="col_12">
+		<div id="header" class="col_10">
+			<div id="logo">
+				<a href="better-mouse.html"><img src="img/svh-logo.png"></a>
+			</div>
+			<h1>Sheonna Von Harris</h1><h2>Front-End Web Developer</h2><br/>
+		</div>
+	</header>
+
+<article id="main" class="col_12">
+	<div id="image-slider" class="col_12 col">
+		<ul id="slider">
+		  <li style="height: 376px; position: relative; left: 64px;"><img src="http://media-cache-ec0.pinimg.com/originals/15/df/9b/15df9bceb67b31b1f83df0bed894ba0c.jpg"></li>
+		  <li><img src="http://media-cache-ak0.pinimg.com/736x/8d/16/21/8d162186254b351f07b8b42af7e9eeef.jpg"></li>
+		</ul>
+	</div>
+</article>
+
+<footer class="col_12">
+	<div id="nav-bar">
+		<nav class="col_8">
+			<ul>
+				<li><a href="web.html">Web</a></li>
+				<li><a href="print.html">Print</a></li>
+				<li><a href="indentity.html">Identity</a></li>
+				<li><a href="packaging.html">Packaging</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div id="contact-bar">
+		<div id="social-icons" class="col_4 col">
+			<h3>Social Media</h3>
+			<ul>
+				<li><a href=""><img src="img/facebook.png" alt="Facbook" width="80px;"></a></li>
+				<li><a href=""><img src="img/twitter.png" alt="Twitter" width="80px;"></a></li>
+				<li><a href=""><img src="img/linkedin-icon.png" alt="LinkedIn" width="80px;"></a></li>
+				<li><a href=""><img src="" alt="Git" width="80px;"></a></li>
+				<li><a href=""><img src="img/pinterest-icon.gif" alt="Pinterest" width="80px;"></a></li>
+			</ul>
+		</div>
+
+		<div id="about" class="col_4 col">
+			<h3>About Me</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam lectus lacus, nec commodo lectus pulvinar vel. Nulla mollis tristique lobortis. Sed at orci eget nulla faucibus ullamcorper. Nulla magna mauris, congue in lacinia non, iaculis et massa. Sed enim lorem, aliquam vitae facilisis nec, feugiat eu lectus. Nulla facilisi. Nullam id accumsan est. Aliquam erat volutpat. Morbi suscipit turpis condimentum turpis posuere mollis. Sed in laoreet erat. Nulla ut dui dui. Proin euismod aliquet auctor. Quisque suscipit enim sit amet tortor ultricies molestie. Curabitur sagittis dui vitae accumsan dignissim.</p>
+		</div>
+
+		<div id="contact" class="col_4 col">
+			<h3>Contact</h3>
+			<form action="/my-handling-form-page" method="post">
+			    <div>
+			        <label for="name">Name:</label>
+			        <input type="text" id="name" />
+			    </div>
+			    <div>
+			        <label for="mail">E-mail:</label>
+			        <input type="email" id="mail" />
+			    </div>
+			    <div>
+			        <label for="msg">Message:</label>
+			        <textarea id="msg"></textarea>
+			    </div>
+			    
+			    <div class="button">
+			        <button type="submit">Send your message</button>
+			    </div>
+			</form>
+		</div>
+	</div>
+</footer>
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/jquery.anythingslider.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script>
+$(function(){
+ $('#slider')
+   .anythingSlider() // add any non-default options here
+   .anythingSliderVideo(); // only add this if your slider includes supported videos (new v1.9)
+});
+</script>
+</body>
+</html>
